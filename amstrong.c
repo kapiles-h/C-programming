@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-int i,j,temp,digit,count,pr,sum=0;
+int i,j,temp,count,pr,sum=0;
 for(i=100; i<10000; i++)
 {
 for(temp=i,count=0,sum=0;temp;temp/=10)
